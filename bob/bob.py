@@ -8,4 +8,3 @@ def hey(string):
         return 'Fine. Be that way!'
     else:
         return 'Whatever.'
-print(hey('abc'))

@@ -1,4 +1,3 @@
-
 def song(start=100, stop=0):
     return "".join(verse(n) + "\n" for n in range(start, stop-1, -1))
 

@@ -9,4 +9,3 @@ def check_brackets(strings):
                 return False
             queue.pop()
     return queue == []
-print(check_brackets('sa nguyen [{}]'))

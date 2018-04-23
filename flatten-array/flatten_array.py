@@ -9,5 +9,3 @@ def flatten(iterable):
             if item is not None:
                 flat.append(item)
     return flat
-
-print(flatten([1,[15,3,None,4],[None],5]))
